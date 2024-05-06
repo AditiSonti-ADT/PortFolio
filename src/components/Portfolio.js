@@ -14,11 +14,10 @@ import { Link } from "react-scroll";
 // import img11 from "../images/my1.png";
 // import img12 from "../images/dev.jfif";
 // import img12 from "../images/n19.jpeg";
-import img13 from "../images/my1.png";
 import img14 from "../images/my11.jpg";
 import img15 from "../images/MentorHomePage.PNG";
 import img16 from "../images/tinyurl.PNG";
-import img17 from "../images/lyricsapp.PNG";
+import img17 from "../images/payment.jpg";
 import { BsFillTelephoneFill } from "react-icons/bs";
 import { IoMail } from "react-icons/io5";
 // import { Form, FormControl, Button, img11 } from "bootstrap";
@@ -44,7 +43,7 @@ class Portfolio extends React.Component {
                   >
                      <Container className="container1">
                         <Navbar.Brand style={{ color: "rgb(255,255,255)" }}>
-                           NAGINA'S PORTFOLIO
+                           ADITI'S PORTFOLIO
                         </Navbar.Brand>
                         <Navbar.Toggle aria-controls="navbarScroll" />
                         <Navbar.Collapse id="navbarScroll">
@@ -121,17 +120,18 @@ class Portfolio extends React.Component {
                            ></Image>
                         </span>
                         <div className="console-container">
-                           <span id="text">Hi, I am Nagina </span>
+                           <span id="text">Hi, I am Aditi </span>
                            <div className="console-underscore" id="console">
                               &#95;
                            </div>
                         </div>
                         <div id="dev-content">
-                           I'm a Full Stack Developer with a passion for solving
-                           real world problems with Programming.
-                           <br /> And I believe i'm a developer who always wants
-                           create something new
-                           <br /> Let's start scrolling and learn more about me
+                        I a'm Passionate Java Developer with a focus on crafting robust and innovative solutions  in the dynamic<br></br>
+                          world of fintech. I thrive on solving complex problems and creating efficient, high-performance<br></br>
+                           applications. My expertise lies in Java, Spring Boot, Gradle, Microservices, and RESTful<br></br>
+                            API development, and I'm committed to delivering top-notch software solutions <br></br>
+                           that drive financial technology forward. Wiling to learn AWS.
+                           <br></br>Let's start scrolling and learn more about me
                         </div>
                         {/* <Image className="img1" src={img11}></Image> */}
                         {/* <Image src={img12}></Image> */}
@@ -145,7 +145,7 @@ class Portfolio extends React.Component {
                <span className="imgSpan">
                   {" "}
                   <Image
-                     src={img13}
+                     
                      // style={{
                      //    width: 250,
                      //    height: 260,
@@ -154,15 +154,9 @@ class Portfolio extends React.Component {
                   ></Image>
                </span>
                <div id="about" className="aboutClass">
-                  <h2>About Me</h2>I am a fresher Full stack Developer who loves
-                  programming and creating projects on ReactJS. While I have a
-                  comprehensive Computer Science background in B.C.A, my
-                  propensity has always been towards software development,
-                  programming and problem solving. I am a thorough learner with
-                  an intention of exploring different work positions. My
-                  motivation which drives me the most is self-improvement. You
-                  can check out some of my personal projects that I have
-                  recently worked on.
+                  <h2>About Me</h2>I a'm a Experienced Software Developer specializing in Java Spring Boot, SQL, REST APIs, ReactJS, Microservices, JPA and
+Gradle, Yugabyte. Proficient in designing, developing, and deploying scalable and reliable software solutions. learning AWS.
+
                   <Link
                      // className="links"
                      to="projects"
@@ -176,9 +170,8 @@ class Portfolio extends React.Component {
                      here
                   </Link>
                   .<h2>Contact Details</h2>
-                  Nagina Sonti <br />
-                  B-109/51 Mira Nagar
-                  <br /> robot city, A-11/02,Dewas M.P.
+                  Aditi Sonti <br />
+                  Dewas Madhya Pradesh
                   <br />
                   <p id="mobileNo">
                      <BsFillTelephoneFill />
@@ -188,9 +181,9 @@ class Portfolio extends React.Component {
                   <a
                      id="gmail"
                      _ngcontent-qcq-c3=""
-                     href="mailto:sontinagina11@gmail.com"
+                     href="mailto:aditi.sonti@gmail.com"
                   >
-                     sontinagina11@gmail.com
+                     aditi.sonti@gmail.com
                   </a>
                </div>
             </div>
@@ -202,13 +195,8 @@ class Portfolio extends React.Component {
                   <h3 className="blackColor">
                      Bachelor of Computer Application
                   </h3>
-                  Vikram University Ujjain •August 2016-December 2019
+                  Vikram University Ujjain •August 2017-December 2020
                   <br />
-                  <h2 className="blackColor">10th</h2> Higher Secondary School,
-                  Bawai •April 2012-March 2013
-                  <br />
-                  <h2 className="blackColor"> 12th </h2>Higher Secondary School,
-                  Bawai •April 2014-March 2015
                </div>
             </div>
             <div className="Work">
@@ -221,10 +209,10 @@ class Portfolio extends React.Component {
                   data pipeline, Optimising algorithms for removing road blocks
                   in a data pipeline, Implementing a software/engine as a
                   Service, Automating testing for increasing efficiency of work */}
-                  <h2 className="blackColor">Full Stack Developer Intern</h2>
+                  <h2 className="blackColor">Full Stack Developer</h2>
                   Full Stack Web Development Bootcamp Newton School:- Full Stack
                   Web Development along with Problem Solving. Technical Stack
-                  learned: Node JS, React JS, Express JS, Mongo DB, HTML, CSS,
+                  learned: Java, React JS, Springboot, SQL, HTML, CSS,
                   JavaScript, and Bootstrap. Participated in various Coding
                   contests organized by the platform. Worked on various projects
                   like To-do-list, Pro-Mentor-Techs, Calculator,URLs
@@ -348,33 +336,40 @@ class Portfolio extends React.Component {
                         {/** Databases */}
                         {this.state.skills === "databases" ? (
                            <div>
-                              <h4>MongoDB</h4>
-                              <ProgressBar
-                                 striped={true}
-                                 id="p1"
-                                 variant="black"
-                                 now={70}
-                              />
                               <h4>MYSQL</h4>
                               <ProgressBar
                                  striped={true}
                                  id="p1"
                                  variant="black"
-                                 now={60}
+                                 now={90}
                               />
-                           </div>
-                        ) : null}
-                        {/**FrameWorks */}
-                        {this.state.skills === "frameworks" ? (
-                           <div>
-                              <h4>ReactJS</h4>
+                              <h4>Yugabyte</h4>
                               <ProgressBar
                                  striped={true}
                                  id="p1"
                                  variant="black"
                                  now={80}
                               />
-                              <h4>ExpressJS</h4>
+                              <h4>MongoDB</h4>
+                              <ProgressBar
+                                 striped={true}
+                                 id="p1"
+                                 variant="black"
+                                 now={50}
+                              />
+                           </div>
+                        ) : null}
+                        {/**FrameWorks */}
+                        {this.state.skills === "frameworks" ? (
+                           <div>
+                              <h4>Springboot</h4>
+                              <ProgressBar
+                                 striped={true}
+                                 id="p1"
+                                 variant="black"
+                                 now={90}
+                              />
+                              <h4>ReactJS</h4>
                               <ProgressBar
                                  striped={true}
                                  id="p1"
@@ -393,14 +388,14 @@ class Portfolio extends React.Component {
                                  variant="black"
                                  now={80}
                               />
-                              <h4>Full Stack Development</h4>
+                              <h4>Java Development</h4>
                               <ProgressBar
                                  striped={true}
                                  id="p1"
                                  variant="black"
                                  now={80}
                               />
-                              <h4>Problem Solving</h4>
+                              <h4>Full Stack Development</h4>
                               <ProgressBar
                                  striped={true}
                                  id="p1"
@@ -447,13 +442,43 @@ class Portfolio extends React.Component {
                   </Button>
                </div>
                <div className="projectsDiv">
+
+               <div className="one-project">
+                     <div className="project1">
+                        {" "}
+                        <Image className="project-img" src={img17}></Image>{" "}
+                     </div>
+                     <div className="payment-gateway">
+                        <h4>Payment Gateway Integration  <a href="https://github.com/AditiSonti-ADT/Payment-Gateway">|Link|</a></h4>
+                        <p>
+                           <ul>
+                           <li>
+                           Payment Gateway Integration Designed and developed a robust payment processing module using Spring Boot and
+                           Java, facilitating seamless integration with leading payment gateways such as PayPal.
+                              </li>
+                              <li>
+                              Features: User Authentication and Authorization,Payment Processing, Transaction Management,Error Handling and
+                              Logging,Multiple Payment Methods, Implemented RESTful APIs to handle payment requests, securely transmit payment
+                              data, ensuring smooth communication between the application and external payment systems.
+                              </li>
+                              <li>
+                              Role: Java Backend Developer
+                              </li>
+                              <li>
+                              Tech Stack: Java, SpringBoot, Thymeleaf, SQL.
+                              </li>
+                           
+                           </ul>{" "}
+                        </p>
+                     </div>
+                  </div>
                   <div className="one-project">
                      <div className="project1">
                         {" "}
                         <Image className="project-img" src={img15}></Image>{" "}
                      </div>
                      <div className="project2">
-                        <h3>Pro-Mentor-Techs</h3>
+                        <h4>Pro-Mentor-Techs  <a href="https://github.com/AditiSonti-ADT/Pro-Mento-Tech">|Link|</a></h4>
                         <p>
                            <ul>
                               <li>
@@ -491,7 +516,7 @@ class Portfolio extends React.Component {
                         <Image className="project-img" src={img16}></Image>{" "}
                      </div>
                      <div className="project2">
-                        <h3>Tiny URLs</h3>
+                        <h4>Tiny URLs  <a href="https://github.com/AditiSonti-ADT/Pro-Mento-Tech">|Link|</a></h4>
                         <p>
                            <ul>
                               <li>
@@ -522,27 +547,24 @@ class Portfolio extends React.Component {
                         {" "}
                         <Image className="project-img" src={img17}></Image>{" "}
                      </div>
-                     <div className="project2">
-                        <h3>Songs Lyrics App</h3>
+                     <div className="payment-gateway">
+                        <h4>Online Banking System  <a href="https://github.com/AditiSonti-ADT/Online-Banking">|Link|</a></h4>
                         <p>
                            <ul>
-                              <li>
-                                 Songs Lyrics App is a website used for
-                                 searching lyrics of songs.
+                           <li>
+                           Online Banking System Allow users to create, view, and manage their bank accounts online. This includes features
+                              such as balance inquiry, transaction history, and account statements.
                               </li>
                               <li>
-                                 Features: Searching lyrics By song Name,Singer
-                                 name, Song Artist name.
+                              Features: User Registration and Login, Managing Accounts, Transaction Management, Error Handling and Logging,
+                                 Implementing Security Measures, Implemented RESTful APIs to handle transaction requests.
+
                               </li>
                               <li>
-                                 Role: Developer | Tech Stack: Node JS, React JS
-                                 Express JS, React-Bootstrap.
+                              Role: Java Backend Developer
                               </li>
                               <li>
-                                 This is a web Application Where user can search
-                                 lyrics for any type of songs and | When click
-                                 on the song name it opens a lyrics page of that
-                                 song.
+                              Tech Stack: Java, SpringBoot, Thymeleaf, SQL.
                               </li>
                            </ul>{" "}
                         </p>
@@ -565,11 +587,12 @@ class Portfolio extends React.Component {
                               Name
                            </Form.Label>
                            <Form.Control
+                           style={{ color: "white" }}
                               id="input-bars"
                               size="lg"
                               // type="text"
                               placeholder="name"
-                              type="reset"
+                              type="name"
                            />
                         </Form.Group>
                         <Form.Group
@@ -580,6 +603,7 @@ class Portfolio extends React.Component {
                               Email address
                            </Form.Label>
                            <Form.Control
+                          style={{ color: "white" }}
                               size="lg"
                               id="input-bars"
                               type="email"
@@ -587,6 +611,7 @@ class Portfolio extends React.Component {
                            />
                         </Form.Group>
                         <Form.Group
+                        style={{ color: "white" }}
                            className="mb-3"
                            controlId="exampleForm.ControlInput1"
                         >
@@ -594,6 +619,7 @@ class Portfolio extends React.Component {
                               Subject
                            </Form.Label>
                            <Form.Control
+                           style={{ color: "white" }}
                               size="lg"
                               id="input-bars"
                               type="text"
@@ -609,6 +635,7 @@ class Portfolio extends React.Component {
                               Example textarea
                            </Form.Label>
                            <Form.Control
+                           style={{ color: "white" }}
                               id="form-text-area"
                               as="textarea"
                               rows={3}
@@ -625,9 +652,8 @@ class Portfolio extends React.Component {
                   </div>
                   <div className="contactDetail">
                      <h2>Contact Details</h2>
-                     Nagina Sonti <br />
-                     B-109/51 Mira Nagar
-                     <br /> Near Kela devi Mandir,Dewas M.P.
+                     Aditi Sonti <br />
+                     <br />Dewas Madhya Pradesh
                      <br />
                      <p id="mobileNo">
                         <BsFillTelephoneFill />
@@ -637,9 +663,9 @@ class Portfolio extends React.Component {
                      <a
                         id="gmail"
                         _ngcontent-qcq-c3=""
-                        href="mailto:sontinagina11@gmail.com"
+                        href="mailto:aditi.sonti@gmail.com"
                      >
-                        sontinagina11@gmail.com
+                        aditi.sonti@gmail.com
                      </a>
                   </div>
                </div>
