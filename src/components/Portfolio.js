@@ -126,7 +126,7 @@ class Portfolio extends React.Component {
                            </div>
                         </div>
                         <div id="dev-content">
-                        I a'm Passionate Software Engineer with a focus on crafting robust and innovative solutions  in the dynamic<br></br>
+                        I a'm Passionate Software Engineer having 3 years of relevant experience with a focus on crafting robust and innovative solutions  in the dynamic<br></br>
                           world of fintech. I thrive on solving complex problems and creating efficient, high-performance<br></br>
                            applications. My expertise lies in Java, Spring Boot, Gradle, Microservices, and RESTful<br></br>
                             API development, and I'm committed to delivering top-notch software solutions <br></br>
@@ -187,9 +187,20 @@ Gradle, Yugabyte. Proficient in designing, developing, and deploying scalable an
                   </a>
                </div>
             </div>
-            <div id="resume" className="EDUCATION">
+            <div id="resume" className="resume">
                <div className="leftSide">
-                  <h2 className="e1">EDUCATION</h2>
+                  <h3 className="e1">Resume</h3>
+               </div>
+               <div id="edu1">
+               <h3 className="blackColor">
+                 <a href="https://drive.google.com/file/d/1rr1KqTH3UCg9NU9yRJku6G__QdI3rjLe/view?usp=drive_link" rel="noreferrer" style={{color: 'blue', textAlign: 'justify'}}>Aditi's Resume</a>
+               </h3>
+               </div>
+            </div>
+
+            <div id="education" className="EDUCATION">
+               <div className="leftSide">
+                  <h3 className="e1">Education</h3>
                </div>
                <div id="edu1">
                   <h3 className="blackColor">
@@ -201,10 +212,10 @@ Gradle, Yugabyte. Proficient in designing, developing, and deploying scalable an
             </div>
             <div className="Work">
                <div className="leftSide">
-                  <h2 className="e1">Experience</h2>
+                  <h3 className="e1">Experience-1</h3>
                </div>
                <div id="work1">
-                  <h2 className="blackColor">Full Stack Developer</h2>
+                  <h3 className="blackColor">Full Stack Developer</h3>
                   Full Stack Web Development Bootcamp Newton School:- Full Stack
                   Web Development along with Problem Solving. Technical Stack
                   learned: Java, React JS, Springboot, SQL, HTML, CSS,
@@ -220,11 +231,11 @@ Gradle, Yugabyte. Proficient in designing, developing, and deploying scalable an
 
             <div className="Work">
                <div className="leftSide">
-                  <h2 className="e1">Experience</h2>
+                  <h3 className="e1">Experience-2</h3>
                </div>
                <div id="work1">
-                  <h2 className="blackColor">Full Stack Developer</h2>
-                  • Tech Stack : Java, Webservices(REST, SOAP), MySQL, Yugabyte, Spring Boot, Spring MVC, JPA, Docker, Git,
+                  <h3 className="blackColor">Full Stack Developer</h3>
+                  • Tech Stack : Java, Webservices(REST, SOAP), ReactJS, MySQL, Yugabyte, Spring Boot, Spring MVC, JPA, Docker, Git,
 JUnit, Mockito, Multithreading, Advanced Java.
 • Responsibilities: Worked as a Developer throughout SDLC processes for micro finance applications for bank which
 focused on loan origination service (LOS) module. Added new features to improve efficiency around 35% of product.
@@ -238,7 +249,7 @@ focused on loan origination service (LOS) module. Added new features to improve 
             </div>{" "}
             <div className="Skills">
                <span className="leftSide">
-                  <h2 className="e1">SKILLS</h2>
+                  <h3 className="e1">Skills</h3>
                </span>
                <span className="skillchild">
                   <span className="skillsDiv">
@@ -669,7 +680,8 @@ focused on loan origination service (LOS) module. Added new features to improve 
                   <div className="contactDetail">
                      <h2>Contact Details</h2>
                      Aditi Sonti <br />
-                     <br />Dewas Madhya Pradesh
+                     <br />Permanent adds. : Dewas, Madhya Pradesh
+                     <br />Current adds. : Bengaluru, Karnataka. 
                      <br />
                      <p id="mobileNo">
                         <BsFillTelephoneFill />

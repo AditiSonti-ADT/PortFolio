@@ -182,6 +182,23 @@ width: 100%;
  padding-bottom: 50px; 
  padding-right: 50px;  */
 }
+
+.resume{
+  /* padding-left:80px; */
+  border-bottom: 1px solid rgb(151, 144, 144);
+  color: rgb(73, 69, 69);
+display: flex;
+flex-direction:row;
+background-color: white;
+/* padding: 10px; */
+/* margin: 0px; */
+/* height: 100vh; */
+width: 100%;
+/* padding-left:100px ; */
+/* padding-top: 50px; 
+ padding-bottom: 50px; 
+ padding-right: 50px;  */
+}
 .Work{
   border-top: 1px solid rgb(151, 144, 144);
   /* padding-left:150px; */
@@ -279,6 +296,7 @@ font-style: oblique ;
   color: #030303;
   text-decoration: underline;
   /* border: 2px solid yellow; */
+  width: 200px;
 
 }
 .leftSide{
