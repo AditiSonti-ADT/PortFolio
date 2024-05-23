@@ -126,7 +126,7 @@ class Portfolio extends React.Component {
                            </div>
                         </div>
                         <div id="dev-content">
-                        I a'm Passionate Java Developer with a focus on crafting robust and innovative solutions  in the dynamic<br></br>
+                        I a'm Passionate Software Engineer with a focus on crafting robust and innovative solutions  in the dynamic<br></br>
                           world of fintech. I thrive on solving complex problems and creating efficient, high-performance<br></br>
                            applications. My expertise lies in Java, Spring Boot, Gradle, Microservices, and RESTful<br></br>
                             API development, and I'm committed to delivering top-notch software solutions <br></br>
@@ -201,14 +201,9 @@ Gradle, Yugabyte. Proficient in designing, developing, and deploying scalable an
             </div>
             <div className="Work">
                <div className="leftSide">
-                  <h2 className="e1">INTERNSHIP</h2>
+                  <h2 className="e1">Experience</h2>
                </div>
                <div id="work1">
-                  {/* <h2 className="blackColor">Projects </h2>
-                  Design and implementation of data processing elements in a
-                  data pipeline, Optimising algorithms for removing road blocks
-                  in a data pipeline, Implementing a software/engine as a
-                  Service, Automating testing for increasing efficiency of work */}
                   <h2 className="blackColor">Full Stack Developer</h2>
                   Full Stack Web Development Bootcamp Newton School:- Full Stack
                   Web Development along with Problem Solving. Technical Stack
@@ -219,6 +214,27 @@ Gradle, Yugabyte. Proficient in designing, developing, and deploying scalable an
                   Shortener,Songs Lyrics App. Created various games like
                   Tic-Tac-Toe, Kill-Monster.
                </div>
+
+               
+            </div>{" "}
+
+            <div className="Work">
+               <div className="leftSide">
+                  <h2 className="e1">Experience</h2>
+               </div>
+               <div id="work1">
+                  <h2 className="blackColor">Full Stack Developer</h2>
+                  • Tech Stack : Java, Webservices(REST, SOAP), MySQL, Yugabyte, Spring Boot, Spring MVC, JPA, Docker, Git,
+JUnit, Mockito, Multithreading, Advanced Java.
+• Responsibilities: Worked as a Developer throughout SDLC processes for micro finance applications for bank which
+focused on loan origination service (LOS) module. Added new features to improve efficiency around 35% of product.
+• Wrote unit test cases for multiple microservices for code around 100% coverage using Jacoco and Sonarqube.
+• Increased the velocity of bug delivery up to 30% by creating documentation for debugging and root cause analysis.
+• Increased the performance up to 25% by refactoring code to incorporating reusable lookup values.
+• Developed utility functions which reduces the 40% of code duplication for an application followed agile practices.
+               </div>
+
+               
             </div>{" "}
             <div className="Skills">
                <span className="leftSide">
